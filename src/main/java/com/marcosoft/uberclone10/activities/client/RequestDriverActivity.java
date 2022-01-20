@@ -110,7 +110,7 @@ public class RequestDriverActivity extends AppCompatActivity {
                     mIdDriverFound = key;
                     mDriverFoundLatLng = new LatLng(location.latitude, location.longitude);
                     mTextViewLookingFor.setText("CONDUCTOR ENCONTRADO\nESPERANDO RESPUESTA");
-                    createClientBooking();
+                 //   createClientBooking();
                     Log.d("DRIVER", "ID: " + mIdDriverFound);
                 }
 
@@ -218,13 +218,14 @@ public class RequestDriverActivity extends AppCompatActivity {
                                             mExtraDestinationLng
                                     );
 
-                                    mClientBookingProvider.create(clientBooking).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                /*    mClientBookingProvider.create(clientBooking).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void aVoid) {
                                             checkStatusClientBooking();
                                         }
                                     });
                                     //Toast.makeText(RequestDriverActivity.this, "La notificacion se ha enviado correctamente", Toast.LENGTH_SHORT).show();
+                                }*/
                                 }
                                 else {
                                     Toast.makeText(RequestDriverActivity.this, "No se pudo enviar la notificacion", Toast.LENGTH_SHORT).show();
@@ -254,7 +255,7 @@ public class RequestDriverActivity extends AppCompatActivity {
 
     }
 
-    private void checkStatusClientBooking() {
+   /* private void checkStatusClientBooking() {
         mListener = mClientBookingProvider.getStatus(mAuthProvider.getId()).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -262,7 +263,7 @@ public class RequestDriverActivity extends AppCompatActivity {
 
                     String status = dataSnapshot.getValue().toString();
                     if (status.equals("accept")) {
-                        Intent intent = new Intent(RequestDriverActivity.this, MapClientBookingActivity.class);
+                      //  Intent intent = new Intent(RequestDriverActivity.this, MapClientBookingActivity.class);
                         startActivity(intent);
                         finish();
                     } else if (status.equals("cancel")) {
@@ -278,9 +279,9 @@ public class RequestDriverActivity extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        });
+        });*/
 
-    }
+    
     }
 
 
