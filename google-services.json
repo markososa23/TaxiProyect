@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "646308924749",
+    "project_id": "uberclone-49f3a",
+    "storage_bucket": "uberclone-49f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646308924749:android:e56a95c79056b1efdc7b04",
+        "android_client_info": {
+          "package_name": "com.marcosoft.uberclone10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646308924749-5lgmr2k9aou3997caaoh9ptn2kico4kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcosoft.uberclone10",
+            "certificate_hash": "843e8229f50efe2224e3a3f3d50daf6137d01a1e"
+          }
+        },
+        {
+          "client_id": "646308924749-gnckegotq84m1i7da2upnp3uc55k8ces.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5H8bKzMBJMCNEScZojuzzyof7psj11Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646308924749-gnckegotq84m1i7da2upnp3uc55k8ces.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646308924749:android:1ddb51f1b44f17e2dc7b04",
+        "android_client_info": {
+          "package_name": "com.marcosoft.uberclone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646308924749-gnckegotq84m1i7da2upnp3uc55k8ces.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5H8bKzMBJMCNEScZojuzzyof7psj11Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646308924749-gnckegotq84m1i7da2upnp3uc55k8ces.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
